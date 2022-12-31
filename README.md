@@ -2,7 +2,7 @@
 ## Preparation
 ### Prepare API token
 * can use the token generated from demo: https://cloud.google.com/text-to-speech
-* apply TTS API access in GCP. it provides 1 million characters monthly for free
+* OR apply TTS API access in GCP. it provides 1 million characters monthly for free
 
 ### Prepare material in `input/`
 * `input.txt` text file
