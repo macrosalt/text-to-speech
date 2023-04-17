@@ -23,10 +23,10 @@ i = 0
 one_second_silence = AudioSegment.silent(duration=1000) # between the lines
 while i < total_num:
     print("[log] processing line ", i)
-    # myobj = voice_actor.myobj
+    myobj = voice_actor.myobj
     # use self define voice
-    name, input = voice_actor.get_va_name_and_txt(lines[i])
-    myobj = voice_actor.get_voice_actor(name)
+    # name, input = voice_actor.get_va_name_and_txt(lines[i])
+    # myobj = voice_actor.get_voice_actor(name)
     myobj["input"] = {"text": input}
     if i < prev_start:
         i = i + 1
