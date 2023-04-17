@@ -47,3 +47,9 @@ def get_voice_actor(name):
     
     res["voice"]["name"] = voice_actor_map[name]
     return res
+
+def get_va_name_and_txt(input):
+    splits = input.split(":", 1)
+    if len(splits) == 1:
+        return "default", splits[0]
+    return splits[0], splits[1]
