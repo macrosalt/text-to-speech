@@ -17,3 +17,7 @@ sudo pip3 install -r requirements.txt
 ```
 python3 internal/main.py
 ```
+* if failure, can start from the previous line #
+```
+python3 internal/main.py 100
+```
